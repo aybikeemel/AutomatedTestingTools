@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Ag90x0_SA_A_17_05">
+      <HintPath>..\..\..\..\..\..\ProgramData\Keysight\Command Expert\ScpiNetDrivers\Ag90x0_SA_A_17_05.dll</HintPath>
+    </Reference>
+    <Reference Include="Ivi.Visa.Interop">
+      <HintPath>..\..\..\..\..\..\ProgramData\Keysight\Command Expert\ScpiNetDrivers\Ivi.Visa.Interop.dll</HintPath>
+    </Reference>
+    <Reference Include="Keysight.CommandExpert.Common">
+      <HintPath>..\..\..\..\..\..\ProgramData\Keysight\Command Expert\ScpiNetDrivers\Keysight.CommandExpert.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Keysight.CommandExpert.DataModel">
+      <HintPath>..\..\..\..\..\..\ProgramData\Keysight\Command Expert\ScpiNetDrivers\Keysight.CommandExpert.DataModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Keysight.CommandExpert.InstrumentAbstraction">
+      <HintPath>..\..\..\..\..\..\ProgramData\Keysight\Command Expert\ScpiNetDrivers\Keysight.CommandExpert.InstrumentAbstraction.dll</HintPath>
+    </Reference>
+    <Reference Include="Keysight.CommandExpert.Scpi">
+      <HintPath>..\..\..\..\..\..\ProgramData\Keysight\Command Expert\ScpiNetDrivers\Keysight.CommandExpert.Scpi.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="cherry\" />
+  </ItemGroup>
+
+</Project>

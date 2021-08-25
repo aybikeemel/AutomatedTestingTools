@@ -1,0 +1,109 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "AutomatedTestingTools/1.0.0": {
+        "dependencies": {
+          "Ag90x0_SA_A_17_05": "0.0.0.0",
+          "Ivi.Visa.Interop": "5.12.0.0",
+          "Keysight.CommandExpert.Common": "1.9.34.0",
+          "Keysight.CommandExpert.DataModel": "1.9.34.0",
+          "Keysight.CommandExpert.InstrumentAbstraction": "1.9.34.0",
+          "Keysight.CommandExpert.Scpi": "1.9.34.0"
+        },
+        "runtime": {
+          "AutomatedTestingTools.dll": {}
+        }
+      },
+      "Ag90x0_SA_A_17_05/0.0.0.0": {
+        "runtime": {
+          "Ag90x0_SA_A_17_05.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Ivi.Visa.Interop/5.12.0.0": {
+        "runtime": {
+          "Ivi.Visa.Interop.dll": {
+            "assemblyVersion": "5.12.0.0",
+            "fileVersion": "5.12.4420.0"
+          }
+        }
+      },
+      "Keysight.CommandExpert.Common/1.9.34.0": {
+        "runtime": {
+          "Keysight.CommandExpert.Common.dll": {
+            "assemblyVersion": "1.9.34.0",
+            "fileVersion": "1.9.34.0"
+          }
+        }
+      },
+      "Keysight.CommandExpert.DataModel/1.9.34.0": {
+        "runtime": {
+          "Keysight.CommandExpert.DataModel.dll": {
+            "assemblyVersion": "1.9.34.0",
+            "fileVersion": "1.9.34.0"
+          }
+        }
+      },
+      "Keysight.CommandExpert.InstrumentAbstraction/1.9.34.0": {
+        "runtime": {
+          "Keysight.CommandExpert.InstrumentAbstraction.dll": {
+            "assemblyVersion": "1.9.34.0",
+            "fileVersion": "1.9.34.0"
+          }
+        }
+      },
+      "Keysight.CommandExpert.Scpi/1.9.34.0": {
+        "runtime": {
+          "Keysight.CommandExpert.Scpi.dll": {
+            "assemblyVersion": "1.9.34.0",
+            "fileVersion": "1.9.34.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AutomatedTestingTools/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ag90x0_SA_A_17_05/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ivi.Visa.Interop/5.12.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Keysight.CommandExpert.Common/1.9.34.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Keysight.CommandExpert.DataModel/1.9.34.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Keysight.CommandExpert.InstrumentAbstraction/1.9.34.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Keysight.CommandExpert.Scpi/1.9.34.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
